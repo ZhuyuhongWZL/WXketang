@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Class-Path: httpclient-4.5.7.jar spring-beans-5.1.5.RELEASE.jar tomcat
+ -embed-core-9.0.16.jar spring-boot-autoconfigure-2.1.3.RELEASE.jar sp
+ ring-boot-starter-tomcat-2.1.3.RELEASE.jar xstream-1.4.7.jar validati
+ on-api-2.0.1.Final.jar jackson-datatype-jdk8-2.9.8.jar jackson-annota
+ tions-2.9.0.jar httpcore-4.4.11.jar spring-core-5.1.5.RELEASE.jar com
+ mons-io-2.4.jar jackson-core-asl-1.9.13.jar spring-boot-starter-json-
+ 2.1.3.RELEASE.jar jackson-datatype-jsr310-2.9.8.jar logback-core-1.2.
+ 3.jar spring-web-5.1.5.RELEASE.jar jackson-databind-2.9.8.jar httpmim
+ e-4.5.7.jar jackson-core-2.9.8.jar slf4j-api-1.7.25.jar jackson-mappe
+ r-asl-1.9.13.jar commons-codec-1.11.jar spring-expression-5.1.5.RELEA
+ SE.jar tomcat-embed-el-9.0.16.jar xmlpull-1.1.3.1.jar spring-aop-5.1.
+ 5.RELEASE.jar classmate-1.4.0.jar jboss-logging-3.3.2.Final.jar wx-to
+ ols-2.1.4-RELEASE.jar hibernate-validator-6.0.14.Final.jar spring-boo
+ t-starter-web-2.1.3.RELEASE.jar spring-boot-starter-2.1.3.RELEASE.jar
+  jackson-module-parameter-names-2.9.8.jar spring-context-5.1.5.RELEAS
+ E.jar javax.annotation-api-1.3.2.jar spring-webmvc-5.1.5.RELEASE.jar 
+ spring-jcl-5.1.5.RELEASE.jar log4j-to-slf4j-2.11.2.jar gson-2.8.5.jar
+  snakeyaml-1.23.jar xpp3_min-1.1.4c.jar log4j-api-2.11.2.jar jul-to-s
+ lf4j-1.7.25.jar spring-boot-2.1.3.RELEASE.jar logback-classic-1.2.3.j
+ ar spring-boot-starter-logging-2.1.3.RELEASE.jar tomcat-embed-websock
+ et-9.0.16.jar
+Main-Class: com.example.wxproject.WxprojectApplication
+

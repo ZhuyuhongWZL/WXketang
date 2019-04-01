@@ -45,7 +45,7 @@ public class WXController {
         Gson gson = new Gson();
         OpenIdOV openIdOV = gson.fromJson(responseString, OpenIdOV.class);
         if (openIdOV != null){
-            String result = "openId = "+openIdOV.getOpenid();
+            String result = "openId="+openIdOV.getOpenid();
             return result;
         }
         return "wrong: can not get open id";
