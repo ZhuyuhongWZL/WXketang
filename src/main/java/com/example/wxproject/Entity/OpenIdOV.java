@@ -46,4 +46,9 @@ public class OpenIdOV {
     public void setScope(String scope) {
         this.scope = scope;
     }
+
+    @Override
+    public String toString() {
+        return access_token+"/"+expires_in+"/"+refresh_token+"/"+openid+"/"+scope+"/";
+    }
 }

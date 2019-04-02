@@ -11,6 +11,7 @@ public class WxprojectApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
