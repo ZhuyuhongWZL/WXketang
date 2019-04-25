@@ -19,7 +19,7 @@ public class UserRepositoryTest {
     @Test
     public void findOneTest(){
         User user = repository.findByOpenId("abc123");
-        System.out.println(user.getUserId());
+        System.out.println(user.getUserName());
     }
 
     @Test

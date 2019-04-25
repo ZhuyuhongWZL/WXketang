@@ -14,6 +14,14 @@ public class CourseVOUtil {
         return result;
     }
 
+    public static AllCourseDTO nouser(){
+        AllCourseDTO result = new AllCourseDTO();
+        result.setCode("1");
+        result.setCourseList(null);
+        result.setMsg("用户openId未绑定");
+        return result;
+    }
+
     public static AllCourseDTO error(){
         AllCourseDTO result = new AllCourseDTO();
         result.setCode("-1");

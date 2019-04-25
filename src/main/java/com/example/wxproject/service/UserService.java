@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public interface UserService {
 
-    User findOne(String openId);
+    User findByOpenId(String openId);
 
     User findByUserIdAndUserName(Integer userId, String userName);
 
